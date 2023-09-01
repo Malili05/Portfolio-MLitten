@@ -1,40 +1,161 @@
-#about {
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-#projects {
 
-}
-#contact {
-
+body {
+    background-color: #d9dcd6;
 }
 
 .header {
-    display: flex;
-    padding: 10px;
-    border: 5px solid;
-    margin: 0;
-    background-color: lightblue;
-}
-.header h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
-    font-size: 70px;
-    color: blueviolet;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3d0101;
+    color: #ffdafa;
+    text-shadow: 120px 80px 40px 20px #ffdafa;
 }
 
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    
+}
+
+
 .header nav {
-    text-align: right;
-    display: inline;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
-    font-size: 50px;
-    color: darkmagenta;
-    justify-content: space-between;
-    text-align: right;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
-.aside {
-    width: 320px;
-    padding: 10px;
-    border: 0px 5px 0px 0px solid gray;
-    margin: 0;
-    display: flex;
+
+.header nav ul {
+    list-style-type: none;
 }
-.
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* background image after the nav bar*/
+.coffee {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./coffee.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* main page content */
+
+.content {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3d0101;
+    color: #ffffff;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.projects img {
+    max-height: 200px;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* left side bar */
+.medias {
+    text-size-adjust: auto;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c30fd3;
+}
+
+.media {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.media h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* might use this later .media img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}*/
+/* right side bar */
+.aboutme {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c30fd3;
+}
+
+.about {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.about h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/*  gonna use this later .about img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
